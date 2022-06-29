@@ -11,6 +11,8 @@ root.render(
     domain="dev-cmicj1i4.us.auth0.com"
     clientId='VHAyLqFt2Lflt95Z7muag9ZRdEiqF5er'
     redirectUri={window.location.origin}
+    // audience="https://api.twitter.com/oauth2/token"
+    // scope="tweet.read users.read bookmark.write"
   >
     <React.StrictMode>
       <App />
